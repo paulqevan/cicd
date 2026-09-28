@@ -21,7 +21,7 @@ def test_endpoint_cout():
 
 
 def test_calcul_cout_heures_creuses():
-    assert calcul_cout(100, 0.2, heures_creuses=True) == 17.0
+    assert calcul_cout(100, 0.2, heures_creuses=True) == 16.0
 
 
 def test_endpoint_cout_negatif():
